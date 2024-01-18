@@ -1,169 +1,159 @@
 .header__container {
   background: rgba(229, 241, 253, 1);
-  height: 105px;
+   height: 105px;
 }
 
 .header__inner {
-  margin: 0 auto;
-  padding: 0 10px;
-  max-width: 1411px;
-  height: 105px;
-
-  display: flex;
-  align-items: center;
-  
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1411px;
+    height: 105px;
+    display: flex;
+    align-items: center;
 }
 
-.logo {
-  padding-right: 11px;
+.header__logo {
+    padding-right: 11px;
+}
+
+.header__logo-img {
+    width: 69px;
+    height: 78px;
 }
 
 .header__title-container {
-  display: flex;
-  flex-direction: column;
-  padding-right: 104px;
-  position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-right: 104px;
+    position: relative;
 }
 
 .header__title {
-  color: #0F7DFF;
-  font-family: "Crete Round", sans-serif ;
-  font-size: 31.154px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 125%; 
-  text-align: center;
+    color: #0f7dff;
+    font-family: "Crete Round", sans-serif;
+    font-size: 31.154px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
 }
 
 .header__title-img {
-  position:absolute;
-  top: 17px;
-  left: 1px;
+    position: absolute;
+    top: 17px;
+    left: 1px;
 }
 
-
 .header__title-description {
-  color: #000;
-  font-family: "Crete Round", sans-serif;
-  font-size: 8px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 125%; 
-  text-align: center;
+    color: #000;
+    font-family: "Crete Round", sans-serif;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: center;
 }
 
 /* Список меню-------------------------- */
 .header__list {
-  display: flex;
-  gap: 70px;
-  padding-right: 68.5px;
+    display: flex;
+    gap: 70px;
+    padding-right: 68.5px;
 }
 
 .header__list-link {
-  color: #000;
-  font-family: "Crete Round", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; 
-  letter-spacing: -0.9px;
-  text-transform: lowercase;
+    color: #000;
+    font-family: "Crete Round", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.9px;
+    text-transform: lowercase;
 }
 
 .create-line {
-  height: 76px;
-  border-left: 1px solid #292929;
-  margin-top: 14px;
+    height: 76px;
+    border-left: 1px solid #292929;
+    margin-top: 14px;
 }
-
-
 
 /* Список контактов --------------------*/
 
 .header__contacts {
-  display: flex;
-  flex-direction: column;
-  padding-left: 72px;
-  padding-right: 33px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 72px;
+    padding-right: 33px;
 }
 
 .header__contacts-img {
-  padding-right: 9px;
+    padding-right: 9px;
 }
 
-
 .header__contacts-tel {
-  color: #000;
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 140%; 
-  text-transform: uppercase;
+    color: #000;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: uppercase;
 }
 
 .header__contacts-mail {
-  color: #000;
-  font-family: "Crete Round", sans-serif  ;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%;
-  letter-spacing: -0.9px;
+    color: #000;
+    font-family: "Crete Round", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.9px;
 }
-.mail__elem  {
-  color: #000;
-  font-family: "Crete Round", sans-serif;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; 
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  padding-right: 11px;
+.mail__elem {
+    color: #000;
+    font-family: "Crete Round", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    padding-right: 11px;
 }
-
 
 /* Список соцсетей---------------- */
 .header__networks-container {
-  display: flex;
-  flex-direction: column;
-  padding-left: 42px;
-  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 42px;
+    gap: 16px;
 }
-
 
 .header__networks {
-  display: flex;
-  gap: 11px;
-  margin-left: 45px;
-
+    display: flex;
+    gap: 11px;
+    margin-left: 45px;
 }
 
-
 .header__networks-point {
-  display:flex;
+    display: flex;
 }
 
 .header__networks-img {
-  padding-right: 12px;
+    padding-right: 12px;
 }
-
-
-
 
 .header__networks-point {
-  margin-left: 54px;
+    margin-left: 54px;
 }
 
-
-
 .header__networks-point-text {
-  color: #000;
-  font-family: "Crete Round", sans-serif;
+    color: #000;
+    font-family: "Crete Round", sans-serif;
     font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 140%; /* 25.2px */
-  letter-spacing: -0.9px;
+    font-style: normal;
+    ont-weight: 400;
+    line-height: 140%; /* 25.2px */
+    letter-spacing: -0.9px;
 }

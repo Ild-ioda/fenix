@@ -1,0 +1,57 @@
+.company__inner {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1411px;
+}
+
+.company__button {
+  color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 26px */
+letter-spacing: -1px;
+}
+
+.company__title {
+  color: #1A323C;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;  
+}
+
+.company__title-elem {
+  color: #0F7DFF;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;  
+}
+
+/* Company list------------------- */
+
+.company__item-title {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; 
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+
+.company__item-text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; 
+  letter-spacing: -0.8px;
+}

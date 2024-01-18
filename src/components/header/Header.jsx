@@ -11,8 +11,8 @@ const Header = () => {
   return (
     <div className="header__container">
       <div className="header__inner">
-        <a className="logo" href="/#">
-          <img className="logo__img" src={logo} alt="logoImg" />
+        <a className="header__logo" href="/#">
+          <img className="header__logo-img" src={logo} alt="logoImg" />
         </a>
         <div className="header__title-container">
           <p className="header__title">ФЕНИКС</p>

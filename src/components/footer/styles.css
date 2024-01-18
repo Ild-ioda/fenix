@@ -2,3 +2,136 @@
   background: rgba(26, 50, 60, 1);
   height: 340px;
 }
+
+.footer__inner {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1411px;
+  height: 340px;
+  display: flex;
+  padding-top: 85px;
+}
+
+.footer__logo {
+  padding-right: 18px;
+}
+
+.footer__logo-img {
+  width: 112.125px;
+  height: 126.295px;
+}
+
+.footer__title-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.footer__title {
+  color: #0f7dff;
+  -webkit-text-stroke-width: 1.625;
+  font-family: "Crete Round", sans-serif;
+  font-size: 50.625px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.footer__title-img {
+  position: absolute;
+  top: 28px;
+  left: 1px;
+}
+
+.footer__title-description {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer__title-description2 {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+/* Список меню ------------------------------------- */
+.footer__list-container {
+  width: 690px;
+  height: 67px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.footer__list {
+  display: flex;
+  gap: 51px;
+  padding: 21px;
+  white-space: nowrap;
+}
+
+.footer__list-link {
+  color: #1a323c;
+  font-family: "Crete Round", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  text-transform: lowercase;
+}
+
+/* Tel contacts---------------- */
+.footer__contacts-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24.96px;
+  align-items: center;
+}
+
+.footer__contacts-number {
+  color: #fff;
+  font-family: "Crete Round", sans-serif;
+  font-size: 43.111px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -2.156px;
+  text-transform: uppercase;
+}
+
+.footer__contacts-point {
+  color: #fff;
+  font-family: "Crete Round", sans-serif;
+  font-size: 21.6px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -1.08px;
+  /* padding-top: 14.42px; */
+}
+
+.footer__contacts-img {
+  padding-right: 14.4px;
+}
+
+/* Networks ------------ */
+.footer__networks {
+  display: flex;
+  gap: 16.8px;
+}
+
+.footer__networks-mail {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -1.2px;
+}

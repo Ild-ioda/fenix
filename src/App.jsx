@@ -1,14 +1,14 @@
-
-import "./styles/reset.css"
+import "./styles/reset.css";
 import Header from "./components/header/Header";
-// import Footer from "./components/footer/Footer";
-
+import Footer from "./components/footer/Footer";
+import Company from "./components/company/Company";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Footer /> */}
+      <Company />
+      <Footer />
     </div>
   );
 }
