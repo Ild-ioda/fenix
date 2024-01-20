@@ -1,0 +1,67 @@
+.product__container {
+  height: 100px;
+}
+
+.product__inner {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1411px;
+}
+
+.product__title {
+  color: #1a323c;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  line-height: 125%;
+  margin-bottom: 55px;
+}
+
+.product__machine-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 23px;
+}
+
+.product__machine-item {
+  text-align: center;
+
+  width: 332px;
+  height: 390px;
+}
+
+.machine__img {
+  width: 179px;
+  height: 239.209px;
+  margin-top: 24px;
+  margin-bottom: 31px;
+}
+
+.product__title_elem {
+  color: rgba(15, 125, 255, 1);
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.product__machine-cards {
+  width: 332px;
+  height: 390px;
+}
+
+.machine__title {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  margin-bottom: 14px;
+}
+
+.machine__text {
+  color: #000;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: -0.6px;
+}
