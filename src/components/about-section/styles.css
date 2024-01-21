@@ -1,0 +1,129 @@
+.about__inner {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1411px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 43px;
+  position: relative;
+  padding-bottom: 88px;
+
+}
+
+/* About background ---------------- */
+.about__background {
+  width: 709px;
+  height: 595px;
+  background-image: url(./../../img/about/aboutBackground.png);
+  background-repeat: no-repeat;
+}
+
+.about__background-img {
+  width: 475px;
+  height: 504px;
+  position: absolute;
+  top: 154px;
+  left: 278px;
+}
+
+/* Blog for company descriptions------------------ */
+
+.about__descriptions {
+  max-width: 686px;
+}
+
+.description-link {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -1px;
+  border-radius: 20px;
+  background: #eee;
+  width: 217px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 3px 36px;
+  white-space: nowrap;
+}
+
+.description__title {
+  color: #1a323c;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  margin-bottom: 20px;
+}
+
+.description__title-elem {
+  color: #0f7dff;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.description__text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.8px;
+}
+
+/* About second container */
+
+.about__objectives {
+  width: 781px;
+
+}
+
+.objectives__title {
+  color: #1a323c;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  padding-left: 117px;
+  margin-bottom: 20px;
+
+}
+
+.objectives__title-elem {
+  color: #0f7dff;
+  font-family: "Crete Round", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.objectives__text {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: -0.8px;
+  padding-left: 117px;
+
+}
+
+/* Second image------- */
+.about-second-img {
+  width: 575px;
+  height: 398px;
+}
+
+
+
