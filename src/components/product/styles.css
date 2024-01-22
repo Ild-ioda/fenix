@@ -1,6 +1,5 @@
 .product__container {
-  
-  margin-bottom: 73px;
+  margin-bottom: 148px;
 }
 
 .product__inner {
@@ -11,15 +10,15 @@
 
 .product__title {
   color: #1a323c;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 125%;
   margin-bottom: 55px;
 }
-.product__title_elem {
+.product__title-elem {
   color: #0f7dff;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 48px;
   font-weight: 400;
   line-height: 125%;
@@ -28,8 +27,9 @@
 .product__machine-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 23px;
+  gap: 13px;
   max-width: 1196px;
+  margin-bottom: 46px;
 }
 
 .product__machine-item {
@@ -48,7 +48,7 @@
 .machine__title {
   color: #000;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 130%;
@@ -58,10 +58,77 @@
 .machine__text {
   color: #000;
   text-align: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 130%;
   letter-spacing: -0.6px;
   margin-bottom: 24px;
+}
+
+/* product parts ----------------- */
+.product__parts-container {
+  max-width: 1411px;
+  height: 189px;
+  border-radius: 671px;
+  background-image: url(./../../img/product/productbackground.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 171px;
+  position: relative;
+}
+
+.products__parts-link {
+  width: 279px;
+  height: 32px;
+  display: inline-block;
+  text-align: center;
+  color: #000;
+  background: #eee;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -1px;
+  border-radius: 20px;
+  margin-top: 27px;
+  margin-bottom: 12px;
+}
+
+.product__flex-container {
+  display:flex;
+  gap: 129px;
+}
+
+.product__parts-text {
+  color: #292929;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.product__parts-button {
+  display: inline-block;
+  max-width: 261px;
+  height: 54px;
+  padding: 10px;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: -1px;
+  border-radius: 20px;
+  background: #0f7dff;
+  white-space: nowrap;
+}
+
+.product__parts-img {
+  position: absolute;
+  top: -57px;
+  right: -78px;
 }
