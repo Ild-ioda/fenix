@@ -26,45 +26,51 @@ const Footer = () => {
         </div>
 
         {/* Список меню ----------- */}
-
-        <div className="footer__list-container">
-          <ul className="footer__list">
-            <li className="footer__list-item">
-              <a href="/#" className="footer__list-link">
-                главная
-              </a>
-            </li>
-            <li className="footer__list-item">
-              <a href="/#" className="footer__list-link">
-                товары
-              </a>
-            </li>
-            <li className="footer__list-item">
-              <a href="/#" className="footer__list-link">
-                новости
-              </a>
-            </li>
-            <li className="footer__list-item">
-              <a href="/#" className="footer__list-link">
-                о компании
-              </a>
-            </li>
-            <li className="footer__list-item">
-              <a href="/#" className="footer__list-link">
-                контакты
-              </a>
-            </li>
-          </ul>
+        <div className="nav__wrapper">
+          <div className="footer__list-container">
+            <ul className="footer__list">
+              <li className="footer__list-item">
+                <a href="/#" className="footer__list-link">
+                  главная
+                </a>
+              </li>
+              <li className="footer__list-item">
+                <a href="/#" className="footer__list-link">
+                  товары
+                </a>
+              </li>
+              <li className="footer__list-item">
+                <a href="/#" className="footer__list-link">
+                  новости
+                </a>
+              </li>
+              <li className="footer__list-item">
+                <a href="/#" className="footer__list-link">
+                  о компании
+                </a>
+              </li>
+              <li className="footer__list-item">
+                <a href="/#" className="footer__list-link">
+                  контакты
+                </a>
+              </li>
+            </ul>
+          </div>
           {/* Tel contacts --------------- */}
-          <div className="footer__contacts-container">
-            <div className="footer__contacts-tel">
-              <a href="tel:8(800)222-12-22" className="footer__contacts-number">
-                8(800)222-12-22
-              </a>
-              <p className="footer__contacts-point">
-                <img className="footer__contacts-img" src={Point} alt="" />
-                Москва
-              </p>
+          <div className="contacts__wrapper">
+            <div className="footer__contacts-container">
+              <div className="footer__contacts-tel">
+                <a
+                  href="tel:8(800)222-12-22"
+                  className="footer__contacts-number"
+                >
+                  8(800)222-12-22
+                </a>
+                <p className="footer__contacts-point">
+                  <img className="footer__contacts-img" src={Point} alt="" />
+                  Москва
+                </p>
+              </div>
             </div>
 
             {/* NETWORKS ------------- */}

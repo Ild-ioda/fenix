@@ -20,7 +20,8 @@ const About = () => {
 
           <h2 className="description__title">
             Компания
-            <span className="description__title-elem">«ФЕНИКС» -</span>  <br></br>
+            <span className="description__title-elem">«ФЕНИКС» -</span>{" "}
+            <br></br>
             надежная, <br></br> зарекомендованная на <br></br> рынке компания
           </h2>
 

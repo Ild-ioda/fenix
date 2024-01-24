@@ -4,17 +4,16 @@
   padding: 0px;
   margin: 0px;
   border: none;
-  overflow-x:hidden
+  overflow-x: hidden;
 }
 
 body {
-  
 }
 
 *,
 *::before,
 *::after {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :focus,
@@ -43,10 +42,8 @@ a:hover {
   /* text-decoration: none; */
 }
 
-
-
 button::focus {
-  background-color:#00d6ff;
+  background-color: #00d6ff;
 }
 
 /* Common -------------------------------------------------*/

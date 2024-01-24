@@ -3,7 +3,7 @@
   margin-bottom: 113px;
 }
 
-.hamburger-menu {
+.menu {
   display: none;
 }
 
@@ -14,7 +14,6 @@
   height: 105px;
   display: flex;
   align-items: center;
-
 }
 
 .header__logo {
@@ -36,7 +35,7 @@
 
 .header__title {
   color: #0f7dff;
-  font-family: 'Crete Round', sans-serif;
+  font-family: "Crete Round", sans-serif;
   font-size: 31.154px;
   font-weight: 400;
   line-height: 125%;
@@ -157,14 +156,12 @@
   letter-spacing: -0.9px;
 }
 
-
-
 /* Adaptive ---------------- */
 
-@media(max-width: 390px) {
-  .hamburger-menu {
+@media (max-width: 390px) {
+  .menu {
     display: block;
-    margin-right: 20px;
+    margin-right: 50px;
   }
 
   .header__container {
@@ -174,22 +171,20 @@
   .header__inner {
     max-width: 390px;
     height: auto;
-
   }
-
 
   .header__logo {
     display: none;
   }
-    .header__title-container {
-      /* display: none; */
-    margin-left: 50px;
-    padding-right: 0px;
-    }
+  .header__title-container {
+    /* display: none; */
+    margin: 0 auto;
+    padding-right: 10px;
+  }
   .create-line {
     display: none;
   }
-  
+
   .header__list {
     display: none;
   }
@@ -204,5 +199,4 @@
   .header__networks-point {
     display: none;
   }
-  
-  }
+}

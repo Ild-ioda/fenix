@@ -1,0 +1,56 @@
+.menu {
+}
+
+.menu__btn {
+  width: 40px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__btn span {
+  background-color: #000;
+  height: 2px;
+  width: 100%;
+}
+
+.menu__list {
+  transform: translateY(-100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1;
+  padding-top: 60px;
+  transition: transform 0.7s ease;
+}
+
+.menu__list.menu__list--open {
+  transform: translateY(0%);
+}
+
+.menu__link {
+  color: #000;
+  font-family: "Crete Round", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.9px;
+}
+
+.menu__item {
+  margin-bottom: 30px;
+}
+.menu__close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

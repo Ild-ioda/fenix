@@ -59,11 +59,18 @@
 }
 
 /* Список меню ------------------------------------- */
+
+.nav__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__list-container {
   width: 690px;
   height: 67px;
   border-radius: 20px;
   background: rgba(255, 255, 255, 1);
+  margin-bottom: 43px;
 }
 
 .footer__list {
@@ -83,6 +90,12 @@
 }
 
 /* Tel contacts---------------- */
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .footer__contacts-container {
   display: flex;
   justify-content: space-between;
@@ -126,4 +139,76 @@
   font-weight: 400;
   line-height: 140%;
   letter-spacing: -1.2px;
+}
+
+/* Adaptive */
+
+@media (max-width: 390px) {
+  .footer__container {
+  }
+  .footer__inner {
+    max-width: 390px;
+    padding-top: 15px;
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .footer__logo {
+    display: none;
+  }
+  .footer__logo-img {
+    top: 3px;
+    left: -5px;
+  }
+  .footer__title-container {
+    margin-bottom: 10px;
+  }
+  .footer__title {
+    font-size: 10vw;
+  }
+  .footer__title-img {
+    top: 3px;
+    left: -5px;
+  }
+  .footer__title-description {
+    font-size: 2vw;
+  }
+  .footer__title-description2 {
+    display: none;
+  }
+  .nav__wrapper {
+    align-items: center;
+  }
+  .footer__list-container {
+    height: 15vh;
+    width:100vw;
+    padding: 0px;
+    margin-bottom: 10px;
+  }
+  .footer__list {
+    gap: 10px;
+  }
+  .footer__list-link {
+    font-size: 3vw;
+  }
+  .contacts__wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .footer__contacts-container {
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  .footer__contacts-number {
+    font-size: 5vw;
+  }
+  .footer__contacts-point{
+    display: none;
+  }
+  .footer__networks {
+    margin-bottom: 15px;
+    
+  }
+  .footer__networks-mail {
+    font-size: 4vw;
+  }
 }

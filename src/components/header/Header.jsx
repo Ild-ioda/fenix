@@ -1,5 +1,5 @@
 import "./styles.css";
-// import Hamburger from "../menu-hamburger/Hamburger";
+import Hamb from "./../hamb/Hamb";
 import logo from "./../../img/header/headerLogo.svg";
 import Phone from "./../../img/header/headerPhone.svg";
 import Point from "./../../img/header/HeaderPoint.svg";
@@ -11,8 +11,8 @@ import Line from "./../../img/header/headerLine.svg";
 const Header = () => {
   return (
     <div className="header__container">
-      {/* <Hamburger /> */}
       <div className="header__inner">
+        <Hamb />
         <a className="header__logo" href="/#">
           <img className="header__logo-img" src={logo} alt="logoImg" />
         </a>
@@ -48,13 +48,17 @@ const Header = () => {
             </a>
           </li>
         </ul>
-          <div class="create-line"></div>
-          
+        <div className="create-line"></div>
+
         {/* Список контактов  ------------------------------------ */}
-        
+
         <ul className="header__contacts">
           <li className="header__contacts-item">
-          <img className="header__contacts-img" src={Phone} alt="Logo phone" />
+            <img
+              className="header__contacts-img"
+              src={Phone}
+              alt="Logo phone"
+            />
 
             <a href="tel:8(800)222-12-22" className="header__contacts-tel">
               8(800)222-12-22
@@ -63,38 +67,44 @@ const Header = () => {
 
           <li className="header__contacts-item">
             <span className="mail__elem">@</span>
-            <a
-              href="mailto:fenix@list.com"
-              className="header__contacts-mail"
-            >
+            <a href="mailto:fenix@list.com" className="header__contacts-mail">
               fenix@list.com
             </a>
           </li>
         </ul>
-        <div class="create-line"></div>
+        <div className="create-line"></div>
 
         {/* Список соц-сетей------------------------------ */}
         <div className="header__networks-container">
-
-        <ul className="header__networks">
-          <li className="header__networks-item">
-            <a href="https://vk.com" className="header__networks-link">
-              <img src={Vk} alt="Logo VK network" />
-            </a>
-          </li>
-          <li className="header__networks-item">
-            <a href="https://www.whatsapp.com/?lang=ru_RU" className="header__networks-link">
-              <img src={WhatsUp} alt="Logo whatsUp messendger" />
-            </a>
-          </li>
-          <li className="header__networks-item">
-            <a href="https://www.viber.com/ru/" className="header__networks-link">
-              <img src={Viber} alt="Logo Viber messendger" />
-            </a>
-          </li>
-        </ul>
+          <ul className="header__networks">
+            <li className="header__networks-item">
+              <a href="https://vk.com" className="header__networks-link">
+                <img src={Vk} alt="Logo VK network" />
+              </a>
+            </li>
+            <li className="header__networks-item">
+              <a
+                href="https://www.whatsapp.com/?lang=ru_RU"
+                className="header__networks-link"
+              >
+                <img src={WhatsUp} alt="Logo whatsUp messendger" />
+              </a>
+            </li>
+            <li className="header__networks-item">
+              <a
+                href="https://www.viber.com/ru/"
+                className="header__networks-link"
+              >
+                <img src={Viber} alt="Logo Viber messendger" />
+              </a>
+            </li>
+          </ul>
           <div className="header__networks-point">
-            <img className="header__networks-img" src={Point} alt="logo map-point" />
+            <img
+              className="header__networks-img"
+              src={Point}
+              alt="logo map-point"
+            />
             <p className="header__networks-point-text">Москва</p>
           </div>
         </div>

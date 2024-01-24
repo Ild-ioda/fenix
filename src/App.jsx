@@ -7,7 +7,6 @@ import Top from "./components/top-section/Top";
 import About from "./components/about-section/About";
 import News from "./components/news-section/News";
 
-
 function App() {
   return (
     <div className="App">
