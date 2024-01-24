@@ -34,7 +34,6 @@
 .top__title {
   padding-top: 39px;
   padding-bottom: 35px;
-
   color: #002770;
   font-family: "Cuprum", sans-serif;
   font-size: 100px;
@@ -127,7 +126,6 @@
     font-size: 2vw;
     letter-spacing: 0px;
   }
-  }
   .top__title {
     font-size: 10vw;
     padding-bottom: 0px;
@@ -135,14 +133,14 @@
     line-height: 70px;
     text-align: center;
   }
-
+  
   .top__text {
     font-size: 5vw;
     padding-bottom: 15px;
     text-align: center;
     margin-bottom: 328px;
   }
-
+  
   .top__link2 {
     max-width: 147px;
     font-size: 2vw;
@@ -150,11 +148,11 @@
     margin: 0 auto;
     display: block;
   }
-
+  
   .top__img1 {
     display: none;
   }
-
+  
   .top__img {
     width: 285px;
     height: 304px;
@@ -168,4 +166,4 @@
   .top__arrow-right {
     display: none;
   }
-
+}
